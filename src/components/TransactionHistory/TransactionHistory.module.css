@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: greenyellow;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid greenyellow;
+}
+
+th {
+  background-color: tomato;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: rgba(255, 99, 71, 0.3); 
+}
+
+td {
+  color: greenyellow;
+}

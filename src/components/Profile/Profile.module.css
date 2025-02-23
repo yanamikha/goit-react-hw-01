@@ -1,0 +1,67 @@
+.profileCard {
+  width: 260px;
+  background: #222;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.profileHeader {
+  margin-bottom: 15px;
+}
+
+.profileCard img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid tomato;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.tag {
+  font-size: 14px;
+  color: gray;
+}
+
+.location {
+  font-size: 14px;
+  color: lightgray;
+}
+
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stats span:first-child {
+  font-size: 12px;
+  color: gray;
+}
+
+.stats span:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: greenyellow;
+}
